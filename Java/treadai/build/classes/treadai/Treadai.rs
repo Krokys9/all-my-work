@@ -1,0 +1,3 @@
+TestThread
+Main
+BendroNaudojimoObjektas

@@ -1,0 +1,8 @@
+kelias('Los Angeles', 'New York', 4490).
+kelias('New York', 'Chicago', 1270).
+kelias('Chicago', 'Houston', 1750).
+kelias('Houston', 'Phoenix', 1890).
+kelias('Phoenix', 'Philadelphia', 3780).
+
+pervaziuoti(IsMiesto, IMiesta, MaxAtstumas):-(kelias(IsMiesto, IKazkur, Atstumas), Atstumas<MaxAtstumas, (pervaziuoti(IKazkur, IMiesta, MaxAtstumas))).
+pervaziuoti(IsMiesto, IMiesta, MaxAtstumas):-kelias(IsMiesto, IMiesta, Atstumas), Atstumas<MaxAtstumas.

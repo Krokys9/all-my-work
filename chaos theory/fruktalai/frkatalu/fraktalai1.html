@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:#282c34;">
+<canvas id="canvas" width="600" height="600" style="border:1px solid #d3d3d3;"></canvas>
+
+<div class="row">
+  <div class="column">
+    <p style="color:#ffffff">Iteracijų skaičius</p>
+    <p>
+      <button onclick="decreaseIt()">-</button>
+      <span  style="color:#ffffff" id="itNumber"></span>
+      <button onclick="increaseIt()">+</button>
+    </p>
+  </div>
+  <div class="column">
+    <p style="color:#ffffff"> Atstumas: 
+      <span  style="color:#ffffff" id="distanceNumber"></span>
+    </p>
+    <p style="color:#ffffff"> Atstumas pixel'iais: 
+      <span  style="color:#ffffff" id="pixelNumber"></span>
+    </p>
+  </div>
+</div>
+<script>
+var ctx;
+var intervalDelay = 20
+var oneBlockSize = 1;
+var boardSize = 600;
+var arrayPoints;
+var color1 = "#FF0000";
+var color2 = "#00F100";
+var drawColor = "#0000FF";
+var directionOFight = true;
+var devilsLenght = 3
+var devilsHeight = 2
+var devilsLineLenght = 2
+var iterationNum = 4
+var arrayIt = 0
+var testnumber=0
+var defaultas = 500
+init();
+//get a reference to the canvas
+function init() {
+var c = document.getElementById("canvas");
+ctx = c.getContext("2d");  c.addEventListener("mousedown", doMouseDown, false)
+  c.addEventListener('mousemove', function(evt) {
+    var mousePos = getMousePos(c, evt);
+    var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y;
+    //writeMessage(c, message);
+  }, false);
+
+initArrayPoints();
+drawBoard();
+drawKoch(0,0,600,0,iterationNum);
+return setInterval(draw, intervalDelay);
+}
+function toDegrees (angle) {
+  return angle * (180 / Math.PI);
+}
+
+
+
+function doMouseDown(evt){
+  reDraw()
+  var c = document.getElementById("canvas");
+  let mousePos = getMousePos(c, evt);
+  let index = findShortestPoint(mousePos)
+
+  let distance = Math.sqrt(Math.pow(arrayPoints[index].x - (mousePos.x ), 2) + Math.pow(defaultas - arrayPoints[index].y - (mousePos.y), 2))
+
+  ctx.strokeStyle = "#ff0000"
+  drawConnectingLine(mousePos.x, arrayPoints[index].x, mousePos.y , defaultas-arrayPoints[index].y);
+
+  document.getElementById("distanceNumber").innerHTML = distance/ boardSize;
+  document.getElementById("pixelNumber").innerHTML = parseInt(distance );
+  ctx.beginPath()
+  ctx.strokeStyle = "#00ff00"
+  ctx.arc(mousePos.x, mousePos.y, 3, 0, 2 * Math.PI)
+  ctx.fill()
+  ctx.stroke()
+}
+function increaseIt(){
+  iterationNum = iterationNum + 1
+  clearCanvas()
+  drawKoch(0,0,600,0,iterationNum);
+}
+function reDraw(){
+  clearCanvas()
+  drawKoch(0,0,600,0,iterationNum);
+}
+function decreaseIt(){
+  if(iterationNum > 0){
+    iterationNum = iterationNum - 1
+    clearCanvas()
+    drawKoch(0,0,600,0,iterationNum);
+  }
+}
+
+// straith up coppied off 
+
+function draw() {
+  let a = new Date()
+  document.getElementById("itNumber").innerHTML = iterationNum;
+  //console.log(new Date() - a)
+  //console.log(arrayPoints)
+}
+function drawConnectingLine(x1, x2, y1, y2){
+  ctx.beginPath()
+  ctx.moveTo(x1 , y1 )
+  ctx.lineTo(x2 , y2 )
+  ctx.lineWidth = devilsLineLenght
+  ctx.stroke()
+}
+
+
+function findShortestPoint(mousePos){
+  let shortest = 600
+  let index = 0
+  for(i = 0; i < arrayPoints.length; i++){
+    d = Math.sqrt(Math.pow(arrayPoints[i].x - (mousePos.x), 2) + Math.pow((defaultas-arrayPoints[i].y) - (mousePos.y ), 2))
+    if(d < shortest){
+      shortest = d
+      index = i
+    }
+  }
+  return index
+}
+function clearCanvas(){
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  initArrayPoints()
+  drawBoard()
+}
+function getMousePos(canvas, evt) {
+  var rect = canvas.getBoundingClientRect();
+  return {
+    x: evt.clientX - rect.left,
+    y: evt.clientY - rect.top
+  };
+  
+}
+
+
+
+// function antrolygiokoch(startx,starty,endx,endy)
+// {
+//   //drawmultipleKoch(startx,starty,startx+(endx-startx)/3,endy);
+//   //drawmultipleKoch(startx+((endx-startx)*2/3),starty,endx,endy);
+//   drawmultipleKoch(startx+(endx-startx)/3,starty,startx+(endx-startx)/2,(((endx-startx)/2/3)*Math.sin(30))+endy);
+//   //drawmultipleKoch(startx+(endx-startx)/2,(((endx-startx)/2/3)*Math.sin(30))+endy,startx+((endx-startx)*2/3),endy);
+// }
+function drawKoch(startx,starty,endx,endy,size)
+{
+if(size <= 0)
+{
+  drawALine(startx,defaultas-starty,endx,defaultas-endy);
+  arrayPoints[arrayIt] = {x:startx,y:starty};
+  arrayIt = arrayIt+ 1;
+   arrayPoints[arrayIt] ={x:endx, y:endy};
+  arrayIt = arrayIt +1;
+return
+}
+size = size - 1;
+let length = (endx-startx)/3;
+;
+let x1,y1,x2,y2,x3,y3;
+// x3 = startx+length*2;
+// y3 = starty+endy/3*2;
+// // tx1 = ((startx+length) - (tx2))/2;
+// // ty1 = ((starty+length/2) - (ty2))/2
+//  x2 = startx+(length+(length/2));
+//  y2 = (starty+(length/2)+endy/3);
+//  x1 = startx+length;
+//  y1 = starty+endy/3;
+
+
+
+
+ // sukti sukti nuo x1 ir y1 cos 60 ir tada sukti cos 120 nuo x2 y2
+// bet ilgio gi nežinom
+
+
+// let length2 = Math.sqrt(Math.pow(endx-startx,2)+Math.pow(endy-starty,2))/3;
+// hx= (endx - startx)/length2;
+// hy =(endy - starty)/length2;
+
+// x1 = (endx - startx)*1/3;
+//  y1 = (endy - starty)*1/3;
+//  x2 = (endx - startx)*1/2;
+//  y2 = (endx - startx)*1/3;
+
+// x3 = startx+length*2;
+// y3 = starty+endy/3*2;
+// // tx1 = ((startx+length) - (tx2))/2;
+// // ty1 = ((starty+length/2) - (ty2))/2
+let d = Math.sqrt((startx-endx)*(startx-endx) + (starty-endy)*(starty-endy));
+let r = d/3;
+let h = r*Math.sqrt(3)/2;
+let p3x = (startx + 2*endx)/3; 
+let p3y =( (starty + 2*endy)/3);
+let p1x = ((2*startx + endx)/3);
+let p1y =( (2*starty + endy)/3);
+let cx = (0.5*(startx+endx));
+let cy =  (0.5*(starty+endy));
+let nx = ((starty-endy)/d);
+let ny = ((endx-startx)/d);
+let p2x = (cx+h*nx);
+let p2y = (cy+h*ny); 
+
+
+
+drawKoch(startx,starty,p1x,p1y,size);
+drawKoch(p1x,p1y,p2x,p2y,size);
+drawKoch(p2x,p2y,p3x,p3y,size);
+drawKoch(p3x,p3y,endx,endy,size);
+
+}
+function initArrayPoints(){
+  arrayPoints = new Array(Math.pow(5, iterationNum));
+  for(i = 0; i < arrayPoints.length; i++){
+    arrayPoints[i] = {x: 0, y: 500}
+  }
+  arrayIt = 0
+}
+/* peusod kodas 
+
+
+
+
+*/
+function initArrayPoints(){
+  arrayPoints = new Array(Math.pow(2, iterationNum + 1));
+  for(i = 0; i < arrayPoints.length; i++){
+    arrayPoints[i] = {x: 0, y: 0}
+  }
+  arrayIt = 0
+}
+function drawALine(xstart,xend,ystart,yend)
+{
+  ctx.beginPath();
+  ctx.moveTo(xstart,xend);
+  ctx.lineTo(ystart,yend);
+  ctx.lineWidth = 5
+  ctx.strokeStyle = "#000000"
+  ctx.stroke();
+}
+
+function drawBoard(){
+  ctx.beginPath()
+  ctx.rect(0, 0, boardSize, boardSize)
+  ctx.fillStyle = "#FFFFFF"
+  ctx.fill() // draws  white board 
+
+  let lineWitdh = 1
+  let color = "#e5e5e5"
+
+  for(i = 0; i < 10; i++){
+    ctx.beginPath()
+    ctx.moveTo(i / 10 * boardSize, 0 * boardSize)
+    ctx.lineTo(i / 10 * boardSize, 1 * boardSize)
+    ctx.lineWidth = lineWitdh
+    ctx.strokeStyle = color
+    ctx.stroke()
+  }
+
+  for(i = 0; i < 10; i++){
+    ctx.beginPath()
+    ctx.moveTo(0 * boardSize, i / 10 * boardSize)
+    ctx.lineTo(1 * boardSize, i / 10 * boardSize)
+    ctx.lineWidth = lineWitdh
+    ctx.strokeStyle = color
+    ctx.stroke()
+  }
+  ctx.strokeStyle = "#0000FF"
+}
+</script>
+
+</body>
+
+<h1> Algoritmas </h1>
+<h2>
+  algoritmas 
+  yra linija kuria  skaidome į tiek dalių kiek yra pas mus iteracijų
+  pradžioje mes siunčiame visą ilgį į funkciją
+  <br>
+  1.funkcija gavusi ilgį skaido į mažesnius etapus, tai yra skaido į kitus 4 etapus, kurie nubraižo vieną koch'o iteraciją
+  <br>
+  2. tol kol mes nepasiekiame iteracijos ribos, tada kocho funkcija skaido visas 4 atkarpas į dar mažesnius intervalus, t.y. visą gautą intervalą į keturis visi 3 žingsio vektoriai yra pridedami prie pradinės reikšmės.
+  <br>
+  3.1 pirmasis intervalas yra nuo 0 - 1/3 , to vektoriaus t.y. (x,y) * (1/3)
+  <br>
+  3.2 antrasis intervalas yra nuo 1/3 iki 1/2 tačiau y yra statmenas (x,y) *(1/2) taip kad būtų gaunamas lygus trikampis
+  <br>
+  3.3 trečiasis yra kaip ir antrasis tik nuo to gauto jau taško iki 2 /3 * (x,y) 
+  <br> 
+  3.4 ketvirtasis gaunamas nuo 2/3 * (x,y) iki pabaigos taškų, tai yra pridėjus visą vektorių (x,y) t.y. pradžios taškas (x1,y1) + (x,y) 
+  <br>
+ 4 kartojame 3, kol nepasiekiame iteracijos pabaigos, skaidydami pradžią ir pabaigą vis į mažesnius gabaliukus.
+  
+  
+</h2>
+</html> 
