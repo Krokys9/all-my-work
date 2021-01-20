@@ -1,0 +1,9 @@
+tsuma([],0).
+tsuma([First|Left],K):-First>0, tsuma(Left,SumOfTail),K is First+SumOfTail.
+tsuma([First|Left],K):-tsuma(Left,SumOfTail).
+
+
+listsum([], 0).
+listsum([Head|Tail], Result) :-
+    listsum(Tail, SumOfTail),
+    Result is Head + SumOfTail.

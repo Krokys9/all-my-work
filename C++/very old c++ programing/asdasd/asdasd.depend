@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1529764875 source:d:\user\desktop\asdasd\list.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+
+1529764645 d:\user\desktop\asdasd\list.h
+	<iostream>
+
+1529768252 source:d:\user\desktop\asdasd\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
+1529764895 d:\user\desktop\asdasd\list.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+

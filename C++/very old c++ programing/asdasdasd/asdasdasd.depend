@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1529034144 source:d:\user\desktop\asdasdasd\list.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+
+1529034146 d:\user\desktop\asdasdasd\list.h
+	<iostream>
+

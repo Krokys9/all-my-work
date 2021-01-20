@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1529240420 source:d:\user\desktop\merge\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<iostream>
+	<string.h>
+	<vector>
+

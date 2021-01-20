@@ -1,0 +1,44 @@
+DB sudaro ne mažiau kaip 4 logiškai pagristos lenteles. +++++ REference : dia
+++++++++++++++++++++++++
+
+DB yra 4-je normineje formoje. reference : -> dia ++++
+++++++++++++++++++++++++
+
+Lenteles turi visus reikiamus pirminius ir išorinius raktus. +++++  reference : -> dia
+++++++++++++++++++++++++
+
+
+Panaudoti bent 3 deklaratyvus reikalavimai reikšmems, panaudojant skirtingus predikatus.
+++++++++++++++++++++++++ reference -> crate sakiniai 
+
+
+Apibrežtos bent 2 numatytosios reikšmes. +++ create sakiniai - > 
++++++++++++++++++++++++++++++++++++
+
+
+DB-je apibrežti bent 2 indeksai, iš kuriu bent vienas - unikalus ir bent vienas - ne. 2 neunikalus , reikia dar 1 unique  reference -> indeksai
+++++++++++++++++++++++++++++++++++++++
+
+
+DB-je apibrežtos bent 2 virtualiosios lenteles. reference->ceate view
++++++++++++++++++++++++++++
+
+
+DB-je apibrežta bent 1 materializuota virtualioji lentele ir jos duomenu atnaujinimo sakinys. TODO
+++++++++++++++++++
+
+
+
+DB-je užtikrinamos bent 2 dalykines taisykles (ne reikalavimai reikšmems), 
+apibrežiamos trigeriais (eiluciu numeravimas nera dalykine taisykle). - TO DO
+++++++++++++++++++++++++++++++++++++++++++++++
+ vieta padariau reikia dar 1 Triggerio 
+
+padariau du triggerius , taciau tokie meeeh  noreciau pasikeist 
+
+
+
+Trigeriai naudojami tik tokiems duomenu vientisumo reikalavimams užtikrinti, kuriu negalima užtikrinti kitomis SQL priemonemis. TO DO
++++++++++++++++++++++++++++
+
+DB-je yra bent 1 tapatumo požymis (numeris), kuris užtikrinamas automatiškai (stulpelio reikšmes generavimu arba trigeriu).  TO DO

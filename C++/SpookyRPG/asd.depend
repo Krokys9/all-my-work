@@ -1,0 +1,1968 @@
+# depslib dependency file v1.0
+1519215804 source:u:\desktop\krokis\asd\untitled1.cpp
+	<SDL.h>
+	<iostream>
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\close_code.h
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786981 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1508786982 c:\users\aumi4492\downloads\sdl2-devel-2.0.7-mingw.tar\sdl2-devel-2.0.7-mingw\sdl2-2.0.7\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1520413501 source:d:\user\desktop\asd\untitled1.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\close_code.h
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922212 d:\user\desktop\asd\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523386687 source:d:\user\desktop\spookyrpg\sprite.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\close_code.h
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 d:\user\desktop\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523384497 d:\user\desktop\spookyrpg\sprite.h
+	<SDL.h>
+	<iostream>
+	<vector>
+
+1523453744 source:d:\user\desktop\spookyrpg\untitled1.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	"enemy2.h"
+	"Menu.h"
+
+1523386636 source:d:\user\desktop\spookyrpg\sprite_group.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523386509 d:\user\desktop\spookyrpg\sprite_group.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1523387416 source:d:\user\desktop\spookyrpg\images.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+
+1523387416 d:\user\desktop\spookyrpg\images.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523389224 source:d:\user\desktop\spookyrpg\button.cpp
+
+1523389244 d:\user\desktop\spookyrpg\button.h
+
+1523376760 source:d:\user\desktop\krokis\champion.cpp
+	"Champion.h"
+	"Player.h"
+	<iostream>
+
+1523376760 d:\user\desktop\krokis\champion.h
+	<iostream>
+
+1523377797 d:\user\desktop\krokis\player.h
+	<iostream>
+	"Champion.h"
+
+1523304199 source:d:\user\desktop\krokis\enemy.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+	"enemy.h"
+
+1523303801 d:\user\desktop\krokis\enemy.h
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523376873 source:d:\user\desktop\krokis\player.cpp
+	<iostream>
+	"Player.h"
+	"Champion.h"
+
+1523377899 source:d:\user\desktop\krokis\voids and functions.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	"voids and functions.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523377877 d:\user\desktop\krokis\voids and functions.h
+
+1523376760 source:d:\user\desktop\spookyrpg\champion.cpp
+	"Champion.h"
+	"Player.h"
+	<iostream>
+
+1523376760 d:\user\desktop\spookyrpg\champion.h
+	<iostream>
+
+1523377797 d:\user\desktop\spookyrpg\player.h
+	<iostream>
+	"Champion.h"
+
+1523394155 source:d:\user\desktop\spookyrpg\enemy.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+	"enemy.h"
+
+1523394105 d:\user\desktop\spookyrpg\enemy.h
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523376873 source:d:\user\desktop\spookyrpg\player.cpp
+	<iostream>
+	"Player.h"
+	"Champion.h"
+
+1523391536 source:d:\user\desktop\spookyrpg\voids and functions.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	"voids and functions.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523391817 d:\user\desktop\spookyrpg\voids and functions.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523393482 source:d:\user\desktop\spookyrpg\menu.cpp
+	<SDL.h>
+	<iostream>
+	"Menu.h"
+
+1523393946 d:\user\desktop\spookyrpg\menu.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523389224 source:u:\desktop\my project\spookyrpg\button.cpp
+
+1523376760 source:u:\desktop\my project\spookyrpg\champion.cpp
+	"Champion.h"
+	"Player.h"
+	<iostream>
+
+1523442812 u:\desktop\my project\spookyrpg\champion.h
+	<iostream>
+
+1523377796 u:\desktop\my project\spookyrpg\player.h
+	<iostream>
+	"Champion.h"
+
+1523394154 source:u:\desktop\my project\spookyrpg\enemy.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+	"enemy.h"
+
+1523394104 u:\desktop\my project\spookyrpg\enemy.h
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523387416 source:u:\desktop\my project\spookyrpg\images.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\close_code.h
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519925812 u:\desktop\my project\spookyrpg\sdl2-devel-2.0.8-mingw\sdl2-2.0.8\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1523384496 u:\desktop\my project\spookyrpg\sprite.h
+	<SDL.h>
+	<iostream>
+	<vector>
+
+1523386508 u:\desktop\my project\spookyrpg\sprite_group.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1523387416 u:\desktop\my project\spookyrpg\images.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523393482 source:u:\desktop\my project\spookyrpg\menu.cpp
+	<SDL.h>
+	<iostream>
+	"Menu.h"
+
+1523443286 u:\desktop\my project\spookyrpg\menu.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523389244 u:\desktop\my project\spookyrpg\button.h
+
+1523391816 u:\desktop\my project\spookyrpg\voids and functions.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523376872 source:u:\desktop\my project\spookyrpg\player.cpp
+	<iostream>
+	"Player.h"
+	"Champion.h"
+
+1523386686 source:u:\desktop\my project\spookyrpg\sprite.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1523386636 source:u:\desktop\my project\spookyrpg\sprite_group.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523391536 source:u:\desktop\my project\spookyrpg\voids and functions.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	"voids and functions.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523452064 source:u:\desktop\my project\spookyrpg\untitled1.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	"enemy2.h"
+	"Menu.h"
+
+1523443742 source:u:\desktop\my project\spookyrpg\src\enemy2.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	"enemy2.h"
+
+1523384496 u:\desktop\my project\spookyrpg\include\sprite.h
+	<SDL.h>
+	<iostream>
+	<vector>
+
+1523386508 u:\desktop\my project\spookyrpg\include\sprite_group.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1523387416 u:\desktop\my project\spookyrpg\include\images.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523449710 u:\desktop\my project\spookyrpg\include\button.h
+
+1523452024 u:\desktop\my project\spookyrpg\include\voids and functions.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523394104 u:\desktop\my project\spookyrpg\include\enemy.h
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523444548 u:\desktop\my project\spookyrpg\include\champion.h
+	<iostream>
+
+1523444590 u:\desktop\my project\spookyrpg\include\player.h
+	<iostream>
+	"Champion.h"
+
+1523453552 u:\desktop\my project\spookyrpg\include\enemy2.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523389224 source:u:\desktop\my project\spookyrpg\src\button.cpp
+
+1523376760 source:u:\desktop\my project\spookyrpg\src\champion.cpp
+	"Champion.h"
+	"Player.h"
+	<iostream>
+
+1523387416 source:u:\desktop\my project\spookyrpg\src\images.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+
+1523450006 source:u:\desktop\my project\spookyrpg\src\menu.cpp
+	<SDL.h>
+	<iostream>
+	"Menu.h"
+
+1523450026 u:\desktop\my project\spookyrpg\include\menu.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523444388 source:u:\desktop\my project\spookyrpg\src\player.cpp
+	<iostream>
+	"Player.h"
+	"Champion.h"
+
+1523450152 source:u:\desktop\my project\spookyrpg\src\sprite.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1523386636 source:u:\desktop\my project\spookyrpg\src\sprite_group.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523452270 source:u:\desktop\my project\spookyrpg\src\voids and functions.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	"voids and functions.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523443622 source:u:\desktop\my project\spookyrpg\src\enemy.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+	"enemy.h"
+
+1523389224 source:d:\user\desktop\spookyrpg\src\button.cpp
+
+1523376760 source:d:\user\desktop\spookyrpg\src\champion.cpp
+	"Champion.h"
+	"Player.h"
+	<iostream>
+
+1523444549 d:\user\desktop\spookyrpg\include\champion.h
+	<iostream>
+
+1523444591 d:\user\desktop\spookyrpg\include\player.h
+	<iostream>
+	"Champion.h"
+
+1523443623 source:d:\user\desktop\spookyrpg\src\enemy.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+	"enemy.h"
+
+1523394104 d:\user\desktop\spookyrpg\include\enemy.h
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+
+1523443742 source:d:\user\desktop\spookyrpg\src\enemy2.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+	"enemy2.h"
+
+1523384496 d:\user\desktop\spookyrpg\include\sprite.h
+	<SDL.h>
+	<iostream>
+	<vector>
+
+1523386508 d:\user\desktop\spookyrpg\include\sprite_group.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1523387416 d:\user\desktop\spookyrpg\include\images.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523449710 d:\user\desktop\spookyrpg\include\button.h
+
+1523452024 d:\user\desktop\spookyrpg\include\voids and functions.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523453553 d:\user\desktop\spookyrpg\include\enemy2.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523387416 source:d:\user\desktop\spookyrpg\src\images.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+
+1524217011 source:d:\user\desktop\spookyrpg\src\menu.cpp
+	<SDL.h>
+	<iostream>
+	"Menu.h"
+
+1523450026 d:\user\desktop\spookyrpg\include\menu.h
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+	"images.h"
+	"button.h"
+	"voids and functions.h"
+	"enemy.h"
+	"Champion.h"
+	"Player.h"
+	<time.h>
+	<string>
+
+1523444389 source:d:\user\desktop\spookyrpg\src\player.cpp
+	<iostream>
+	"Player.h"
+	"Champion.h"
+
+1523450152 source:d:\user\desktop\spookyrpg\src\sprite.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+
+1523386636 source:d:\user\desktop\spookyrpg\src\sprite_group.cpp
+	<SDL.h>
+	<iostream>
+	<vector>
+	"Sprite.h"
+	"Sprite_group.h"
+
+1523452270 source:d:\user\desktop\spookyrpg\src\voids and functions.cpp
+	<iostream>
+	"Champion.h"
+	"Player.h"
+	"voids and functions.h"
+	<time.h>
+	<string>
+	<stdlib.h>
+

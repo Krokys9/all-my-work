@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1529685795 source:d:\user\desktop\krokis\main.cpp
+	<iostream>
+	"vector"
+	"time.h"
+

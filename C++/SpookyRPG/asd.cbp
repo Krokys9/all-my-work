@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="asd" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/asd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/asd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="SDL2-devel-2.0.8-mingw/SDL2-2.0.8/i686-w64-mingw32/include/SDL2" />
+			<Add directory="SDL2_image-devel-2.0.3-mingw/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+			<Add library="SDL2_image" />
+			<Add directory="SDL2-devel-2.0.8-mingw/SDL2-2.0.8/i686-w64-mingw32/lib" />
+			<Add directory="SDL2_image-devel-2.0.3-mingw/SDL2_image-2.0.3/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="Untitled1.cpp" />
+		<Unit filename="include/Champion.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Sprite.h" />
+		<Unit filename="include/Sprite_group.h" />
+		<Unit filename="include/button.h" />
+		<Unit filename="include/enemy.h" />
+		<Unit filename="include/enemy2.h" />
+		<Unit filename="include/images.h" />
+		<Unit filename="include/voids and functions.h" />
+		<Unit filename="src/Champion.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Sprite.cpp" />
+		<Unit filename="src/Sprite_group.cpp" />
+		<Unit filename="src/button.cpp" />
+		<Unit filename="src/enemy.cpp" />
+		<Unit filename="src/enemy2.cpp" />
+		<Unit filename="src/images.cpp" />
+		<Unit filename="src/voids and functions.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

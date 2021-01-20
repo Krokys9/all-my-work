@@ -1,0 +1,1 @@
+create view nepakrautiAutomobiliai as Select aumi4492.automobilis.vieta, aumi4492.automobilis.Ain, aumi4492.automobilis.uzdarbis, from aumi4492.automobilis where krovinys = null

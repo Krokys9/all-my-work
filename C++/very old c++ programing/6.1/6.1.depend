@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1507545842 source:u:\desktop\krokis\6.1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1508068394 source:d:\user\desktop\6.1\main.c
+	<stdio.h>
+	<stdlib.h>
+

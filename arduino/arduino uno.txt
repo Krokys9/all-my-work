@@ -1,0 +1,102 @@
+#include <SPI.h>
+#include "Ucglib.h"
+
+Ucglib_ST7735_18x128x160_SWSPI ucg(/*sclk=*/ 13, /*data=*/ 11, /*cd=*/ 9 , /*cs=*/ 10, /*reset=*/ 8);
+
+void setup(void){
+  delay(1000);
+  ucg.begin(UCG_FONT_MODE_TRANSPARENT);
+  ucg.clearScreen();
+}
+
+void loop(void){
+  ucg.setRotate180();
+  ucg.setFont(ucg_font_ncenR14_tr);
+  ucg.setPrintPos(0,50);
+  ucg.setColor(255, 255, 255);
+  ucg.print("Hello World!");
+  ucg.setColor(255, 255, 255);
+  ucg.drawBox(100, 100, 45, 20);
+  delay(500);  
+}
+
+ // TFTscreen.line(0,64,160,64);
+ // delay(500);
+
+  //draw a square
+  //TFTscreen.rect(50,34,60,60);
+ // delay(500);
+    
+  //draw a circle
+ // TFTscreen.circle(80,64,30);
+ // delay(500);
+
+  //erase all figures
+ // TFTscreen.background(0,0,0);
+/* sukimasis = 0;
+    for (int i = 0; i <= 160; i++) {
+    TFTscreen.line(0,64,i,0);
+   spalvos = getbackcolours();
+    TFTscreen.stroke(spalvos.b, spalvos.g, spalvos.r);
+        if (countas == 3 && nestinis){
+      sukimasis+=2;
+      nestinis = true;
+    analogWrite(3,sukimasis);
+    countas = 0;
+        }else if (countas == 2 && !nestinis)
+        
+    {
+            sukimasis++;
+      nestinis = false;
+    analogWrite(3,sukimasis);
+    countas = 0;
+    }
+    else 
+    {
+      countas++;
+    }
+  }
+  for (int i = 0; i <= 128; i++) {
+    TFTscreen.line(0,64,160,i);
+    spalvos = getbackcolours();
+       TFTscreen.stroke(spalvos.b, spalvos.g, spalvos.r);
+        if (countas == 3 && nestinis){
+      sukimasis+=2;
+      nestinis = true;
+    analogWrite(3,sukimasis);
+    countas = 0;
+        }else if (countas == 2 && !nestinis)
+        
+    {
+            sukimasis++;
+      nestinis = false;
+    analogWrite(3,sukimasis);
+    countas = 0;
+    }
+    else 
+    {
+      countas++;
+    }
+    
+  }
+  for (int i = 160; i > 0; i--) {
+    TFTscreen.line(0,64,i,128);
+    spalvos = getbackcolours();
+        TFTscreen.stroke(spalvos.b, spalvos.g, spalvos.r);
+        if (countas == 3 && nestinis){
+      sukimasis+=2;
+      nestinis = true;
+    analogWrite(3,sukimasis);
+    countas = 0;
+        }else if (countas == 2 && !nestinis)
+        
+    {
+            sukimasis++;
+      nestinis = false;
+    analogWrite(3,sukimasis);
+    countas = 0;
+    }
+    else 
+    {
+      countas++;
+    }*/

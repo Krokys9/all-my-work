@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1511132367 source:d:\user\desktop\krokodilas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"header.h"
+
+1511131487 d:\user\desktop\krokodilas\header.h
+
+1511132367 source:d:\user\desktop\krokodilas\sorts.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1511176992 source:u:\desktop\krokodilas\sorts.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1511175636 u:\desktop\krokodilas\header.h
+
+1511176880 source:u:\desktop\krokodilas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"header.h"
+

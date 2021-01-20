@@ -1,0 +1,22 @@
+ insert into transportas values ('01','mercedes-benz','Maybach');
+ insert into transportas values ('02','mercedes-benz','A200');
+ insert into transportas values ('03','mercedes-benz','Actros');
+ insert into transportas values ('04','Scania','P420');
+ insert into transportas values ('05','Scania','P410');
+ insert into transportas values ('06','Toyota','Avensis');
+insert into transportas values('07', 'Toyota', 'Yaris');
+insert into transportas values('08', 'Toyota', 'Supra');
+insert into transportas values('09', 'Toyota', 'Corola');
+insert into transportas values('10', 'BMW', 'E30');
+insert into transportas values('11', 'BMW', 'e34');
+insert into transportas values('12', 'BMW', 'e60');
+insert into transportas values('13', 'VW', 'Passat');
+insert into transportas values('14', 'VW', 'Golf');
+insert into transportas values('15', 'VW', 'Beatle');
+insert into transportas values('16', 'VW', 'multivan');
+insert into transportas values('17', 'opel', 'zefira');
+insert into transportas values('18', 'seat', 'altea');
+insert into transportas values('19', 'Honda', 'Civic');
+
+
+

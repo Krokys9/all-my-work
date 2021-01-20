@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=enemy
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ enemy\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=enemy()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ enemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ fall()
+comment4.params=
+comment4.target=void\ jump()
+comment5.params=
+comment5.target=void\ ballsMovement()
+numComments=6

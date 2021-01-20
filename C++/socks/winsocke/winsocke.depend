@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1552235767 source:d:\user\desktop\winsocke\main.c
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdlib.h>
+	<stdio.h>
+
+1552752079 source:d:\user\desktop\socks\winsocke\main.c
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdlib.h>
+	<stdio.h>
+

@@ -1,0 +1,7 @@
+sudetis(X,0,Z):- Z = X.
+sudetis(X,s(Y),Z):-  sudetis(s(X),Y,Z).
+xmaziau(0,_):-true.
+xmaziau(s(X),s(Y)):- xmaziau(X,Y).
+tarp(X,X,B):- xmaziau(X,B).
+tarp(A,X,B):-
+     xmaziau(A,B),sudetis(A,s(0),Z), tarp(Z,X,B).

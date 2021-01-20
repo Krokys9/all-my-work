@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="538.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.FXMLDocumentController">
+   <children>
+      <VBox prefHeight="538.0" prefWidth="795.0">
+         <children>
+            <HBox prefHeight="484.0" prefWidth="795.0">
+               <children>
+                  <VBox prefHeight="391.0" prefWidth="644.0">
+                     <children>
+                        <TextField fx:id="money" promptText="enter money amount">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="years" promptText="Enter years">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="months" promptText="Enter months">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <CheckBox fx:id="linijinis" mnemonicParsing="false" text="linijinis">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="80.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="taskitas" mnemonicParsing="false" text="tasKitas">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="80.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </CheckBox>
+                        <TextField fx:id="interest" promptText="interest">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="391.0" prefWidth="644.0">
+                     <children>
+                        <TableView fx:id="tableView" prefHeight="477.0" prefWidth="398.0">
+                          <columns>
+                            <TableColumn fx:id="monthCol" prefWidth="76.0" text="menuo" />
+                            <TableColumn fx:id="sumCol" prefWidth="113.0" text="suma" />
+                              <TableColumn fx:id="nahuicol" prefWidth="100.0" text="mokestis" />
+                              <TableColumn fx:id="procCol" prefWidth="108.0" text="palukanos" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="70.0" prefWidth="128.0" text="Button" />
+                  <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="144.0" text="Button" />
+                  <AnchorPane prefHeight="77.0" prefWidth="534.0">
+                     <children>
+                        <Button layoutX="391.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="140.0" text="go to table" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

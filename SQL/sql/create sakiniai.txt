@@ -1,0 +1,63 @@
+CREATE TABLE aumi4492.Transportas
+( 
+    AIN          VARCHAR(32)      NOT NULL,
+    Marke      VARCHAR(15)   NOT NULL,
+    Modelis      VARCHAR(20)   NOT NULL,     
+
+    PRIMARY KEY  (AIN)
+); -- padaryta lentele
+
+
+CREATE TABLE aumi4492.Krovinys
+( 
+    KN         VARCHAR(32)      NOT NULL,
+    atvezimo_data     date     NOT NULL check (atvezimo_data > current_date ),
+    CMR     VARCHAR(20)   NOT NULL,     
+    PRIMARY KEY  (KN)
+);  - sukuriau 
+
+
+CREATE TABLE aumi4492.Automobilis
+(
+    AIN          VARCHAR(32)      NOT NULL,
+    Adresas      VARCHAR(32)   NOT NULL,
+    Gaminimo_data    date      NOT NULL check (gaminimo_data < current_date +1 ,
+    vieta VARCHAR(15),
+    uzsakovas          VarCHAR(15),
+    Uzdarbis int, 
+    krovinys VARCHAR(32)  NOT NULL,
+    PRIMARY KEY  (AIN),
+    FOREIGN KEY  (AIN) REFERENCES Transportas on delete cascade
+    FOREIGN KEY  (krovinys) REFERENCES Krovinys
+);  - sukuriau
+
+
+CREATE TABLE aumi4492.Autovezis 
+(
+    AIN          VARCHAR(32)      NOT NULL,
+    krovinys   VARCHAR(32)  NOT NULL, 
+    Rida     int not null check (rida >0), 
+    Kaina  	  int   NOT NULL    CHECK (Kaina > 0),
+
+    PRIMARY KEY   (AIN),
+    FOREIGN KEY   (AIN) REFERENCES Transportas 
+                                ON DELETE CASCADE
+   Foreign key (Krovinys) references krovinys on delete set null
+); - sukuriau !!!!!
+
+
+CREATE TABLE aumi4492.vairuotojas
+(
+    Vardas         VARCHAR(15)   NOT NULL,
+    Pavarde        VARCHAR(20)   NOT NULL,
+    Sutarties_data       DATE          NOT NULL   check ( sutarties_data < current_date+1),
+
+    PN   VARCHAR(15) not null,
+   autovezis         VARCHAR(32)      NOT NULL, ,
+
+    PRIMARY KEY (PN),
+    FOREIGN KEY (autovezis) REFERENCES autovezis
+                                            ON DELETE set null
+); - sukuriau !
+
+

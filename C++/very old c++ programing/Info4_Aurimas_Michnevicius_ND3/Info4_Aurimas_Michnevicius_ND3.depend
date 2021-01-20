@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1523222658 source:d:\user\desktop\info4_aurimas_michnevicius_nd3\main.cpp
+	<iostream>
+	"Bubble.h"
+
+1523222705 source:d:\user\desktop\info4_aurimas_michnevicius_nd3\bubble.cpp
+	<vector>
+	<iostream>
+	"Bubble.h"
+
+1523222658 d:\user\desktop\info4_aurimas_michnevicius_nd3\bubble.h
+	<vector>
+

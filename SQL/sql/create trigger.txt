@@ -1,0 +1,46 @@
+CREATE FUNCTION vietuMax() RETURNS "trigger" AS $$
+DECLARE yra   SMALLINT;
+    BEGIN
+
+  
+        SELECT COUNT(*) INTO yra FROM automobilis
+              WHERE krovinys= NEW.krovinys;
+        
+        IF yra >= 9
+            THEN RAISE EXCEPTION 'Autovezyje nera pakankamai vietos !';
+        END IF;
+        RETURN NEW;
+    END;
+$$
+LANGUAGE plpgsql;
+
+CREATE TRIGGER pilnumui
+    BEFORE INSERT OR UPDATE ON Automobilis
+    FOR EACH ROW EXECUTE PROCEDURE vietuMax();
+
+
+- padariau viena triggeri
+
+
+
+create function NevairuojaDvieju() returns "trigger" as $$
+declare vairuoja smallint
+begin 
+   
+        SELECT COUNT(*) INTO vairuoja FROM vairuotojas
+              WHERE autovezis= NEW.autovezis;
+        
+        IF vairuoja >1 
+            THEN RAISE EXCEPTION 'Vairuotojas negali vairuoti 2 sunkvezimiu!';
+        END IF;
+        RETURN NEW;
+    END;
+$$
+LANGUAGE plpgsql;
+
+create trigger Vairavimui
+ before insert or update on Vairuotojas
+ for each row execute procedure nevairuojaDvieju();
+
+ - padarytas dar vienas triggeris
+

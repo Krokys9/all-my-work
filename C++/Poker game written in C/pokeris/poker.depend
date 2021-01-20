@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1511728482 source:d:\user\desktop\poker\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1511781796 source:u:\desktop\poker\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1512317898 source:d:\user\desktop\pokeris\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1512381928 source:u:\desktop\poka poka\pokeris\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

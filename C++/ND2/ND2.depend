@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1521396396 source:d:\user\desktop\nd2\list.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+
+1521396362 d:\user\desktop\nd2\list.h
+	<iostream>
+
+1521376844 source:d:\user\desktop\nd2\main.cpp
+	<iostream>
+	<vector>
+	"list.h"
+

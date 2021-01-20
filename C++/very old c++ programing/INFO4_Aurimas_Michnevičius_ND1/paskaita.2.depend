@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1518694844 source:u:\desktop\krokis\paskaita.2\main.cpp
+	<iostream>
+	<string>
+
+1519585850 source:d:\user\desktop\paskaita.2\main.cpp
+	<iostream>
+	<string>
+	"Untitled1.h"
+
+1519587325 d:\user\desktop\paskaita.2\untitled1.h
+
+1519587340 source:d:\user\desktop\paskaita.2\untitled1.cpp
+	<iostream>
+	<string>
+	"Untitled1.h"
+

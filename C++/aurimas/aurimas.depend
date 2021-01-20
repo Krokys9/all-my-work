@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1510570342 source:u:\desktop\krokis\aurimas\file.c
+	<stdio.h>
+	<stdlib.h>
+	"file.h"
+
+1510570324 u:\desktop\krokis\aurimas\file.h
+
+1510571372 source:u:\desktop\krokis\aurimas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"file.h"
+	<time.h>
+
+1510570342 source:d:\user\desktop\aurimas\file.c
+	<stdio.h>
+	<stdlib.h>
+	"file.h"
+
+1510570325 d:\user\desktop\aurimas\file.h
+
+1510570342 source:d:\user\desktop\shiet\aurimas\file.c
+	<stdio.h>
+	<stdlib.h>
+	"file.h"
+
+1510570325 d:\user\desktop\shiet\aurimas\file.h
+
+1511095328 source:d:\user\desktop\shiet\aurimas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"file.h"
+	<time.h>
+

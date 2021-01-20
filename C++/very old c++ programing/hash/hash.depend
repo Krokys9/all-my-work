@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1522927054 source:u:\desktop\krokis\hash\list.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+
+1522926956 u:\desktop\krokis\hash\list.h
+	<iostream>
+
+1522927902 source:u:\desktop\krokis\hash\main.cpp
+	<iostream>
+	<time.h>
+	"list.h"
+	<stdlib.h>
+
+1522927054 source:d:\user\desktop\hash\list.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+
+1522926956 d:\user\desktop\hash\list.h
+	<iostream>
+
+1525034141 source:d:\user\desktop\hash\main.cpp
+	<iostream>
+	<time.h>
+	"list.h"
+	<stdlib.h>
+

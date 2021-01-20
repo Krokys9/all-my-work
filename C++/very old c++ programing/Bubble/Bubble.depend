@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1529421642 source:d:\user\desktop\bubble\main.cpp
+	<iostream>
+	<stdio.h>
+	<iostream>
+	<string.h>
+	<vector>
+

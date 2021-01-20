@@ -1,0 +1,31 @@
+%galiniai(S,K,R) - sàraðas R - paskutiniøjø K duoto sàraðo S elementø
+% sàraðas. Pavyzdþiui:
+%?- galiniai([a,b,c,d,e],3,R).
+
+%R = [c,d e].
+%
+%
+%
+%
+%
+%
+%
+%apvopt(PRAD,APV):-
+	%apv1(PRAD,[],APV).
+
+%apv1([],APV,APV).
+%apv1([P|G],TARP, APV):-
+	%apv1(G,[P|TARP],APV).
+
+% galiniai([First|Tail],K,R):- , apvopt(L,[First|Tail]),K1 is K-1,
+% galiniai(Tail,K1,[First|R]).
+% galiniai([First|Tail],K,R):- K \=0,R = First,K1 is K-1,
+% galiniai(Tail,K1,[First|R]).
+%galiniai(_,0,_).
+%galiniai([First|Tail],K,R):-K \=0, galiniai(Tail,K,[First|R]).
+%galiniai(L,K,R):- L = [].
+galiniai([_|Tail],K,R):- K\=0,galiniai(Tail,K,R).
+galiniai([First|Tail],K,[R|L]):- k\=0,R = First,K1 is K-1,galiniai(Tail,K1,L).
+galiniai([],0,[]).
+galiniaib([First|Tail],K,[R|L]):- k\=0,R = First,K1 is K-1,galiniaib(Tail,K1,L).
+galiniaib([],0,[]).

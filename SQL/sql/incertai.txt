@@ -1,0 +1,42 @@
+ insert into transportas values ('01','mercedes-benz','Maybach');
+ insert into transportas values ('02','mercedes-benz','A200');
+ insert into transportas values ('03','mercedes-benz','Actros');
+ insert into transportas values ('04','Scania','P420');
+ insert into transportas values ('05','Scania','P410');
+ insert into transportas values ('06','Toyota','Avensis');
+insert into transportas values('07', 'Toyota', ' Yaris');
+insert into transportas values('08', 'Toyota', 'Supra');
+insert into transportas values('09', 'Toyota   ', 'Corola');
+insert into transportas values('10', 'BMW', 'E30');
+insert into transportas values('11', 'BMW', ' e34');
+insert into transportas values('12', 'BMW', 'e60');
+insert into transportas values('13', 'VW', 'Passat');
+insert into transportas values('14', 'VW', 'Golf ');
+insert into transportas values('15', 'VW', 'Beatle');
+insert into transportas values('16', 'VW', ' multivan');
+insert into transportas values('17', 'opel ', 'zefira');
+insert into transportas values('18', 'seat ', 'altea');
+insert into transportas values('19', ' Honda', ' Civic');
+
+insert into krovinys values ('K01', '2019-06-08', K01VIL);
+insert into krovinys values ('K02', '2020-09-06', K02Klp);
+
+
+insert into automobilis values ('01', '1998-01-01' ,'Vilnius' ,'Blinda', 450, null);
+insert into automobilis values ('06', '2000-01-01' , 'kaunas' ,'Blinda', 200, 'k01');
+insert into automobilis values ('07', '1997-01-01' , 'marselis' ,'JonasPetrausk', 1200, 'k01');
+insert into automobilis values ('08', '1998-01-01' , 'peru' ,'Gangsteris', 9999, 'k01');
+insert into automobilis values ('09', '2019-01-01' , 'Paryzius','M1011', 350, 'k01');
+insert into automobilis values ('10', '2019-01-01' , 'Paryzius','M1011',  180, 'k01');
+insert into automobilis values ('11', '2019-01-01' , 'Paryzius', 'M1011', 150, 'k01');
+insert into automobilis values ('12', '2019-01-01' , 'Paryzius','M1011',  600, 'k01');
+insert into automobilis values ('14', '2019-01-01' , 'Paryzius','M1011',  470, 'k01');
+insert into automobilis values ('15', '2019-01-01' , 'Paryzius','M1011',  900, 'k01');
+insert into automobilis values ('16', '2019-01-01' , 'Paryzius','M1011',  1000, 'k02');
+
+
+
+insert into autovezis values('02','k01',150000,12000);
+insert into autovezis values('03','k02',1000,40000);
+insert into autovezis values('04',null,1,1000000);
+insert into autovezis values('05',null,1,1000000);
